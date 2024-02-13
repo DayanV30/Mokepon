@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* O el color de fondo que prefieras */
+}
+
+.titulo {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+#seleccionar-mascota {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#seleccionar-mascota h2 {
+    text-align: center;
+    color: #333;
+}
+
+#seleccionar-mascota label {
+    margin-right: 10px;
+}
+
+#seleccionar-mascota input[type="radio"] {
+    margin: 10px;
+}
+
+#boton-mascota {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#boton-mascota:hover {
+    background-color: #005f73;
+}
+
+#seleccionar-ataque {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#seleccionar-ataque button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#boton-fuego {
+    background-color: #f44336;
+    color: white;
+}
+
+#boton-agua {
+    background-color: #2196f3;
+    color: white;
+}
+
+#boton-tierra {
+    background-color: #4caf50;
+    color: white;
+}
+
+#boton-reiniciar {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#boton-reiniciar:hover {
+    background-color: #d32f2f;
+}
+
+#mensajes {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Agrega más estilos según sea necesario */
+
+
